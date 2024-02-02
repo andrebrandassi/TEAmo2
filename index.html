@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS EngSoluções</title>
+    <!--LINKS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <header>
+            <div class="fix">
+                <div class="logo"><a href="index.html"><img src="img/logo-branca.png" alt=""></a></div>
+                <nav class="nav">
+                    <div class="menu-toggle">
+                        <button class="btn-menu">
+                            <span class="linha"></span>
+                            <span class="linha"></span>
+                            <span class="linha"></span>
+                        </button>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="#"><p>Home</p></a></li>
+                        <li><a href="#sobre" ><p>Sobre nós</p></a></li>
+                        <li><a href="#servicos"><p>Serviços</p></a></li>
+                        <li><a href="faq.html" target="_self"><p>FAQ</p></a></a></li>
+                        <li><a href="#localizacao"><p>Onde estamos</p></a></li>
+                        <li><a href="#contato"><p>contato</p></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="slogan-botao">
+                <div class="txt-um"><h1>Lorem ipsum dolor sit.</h1></div>
+                <div class="btn"><a href="#contato"><button>Solicitar Orçamento</button></a></div>
+                <div class="txt-dois"><h1>Lorem ipsum dolor sit amet consectetur.</h1></div>
+            </div>
+    </header>    
+
+    <!--Quem somos-->
+
+    <section id="sobre">
+        <h1 class="titulo">Sobre nós</h1>
+        <div class="sobre-content">
+            <div class="sobre-img"><img src="img/sobre.jpg" alt=""></div>
+            <div class="sobre-txt">
+                <h1>Lorem, ipsum asdfas.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, maiores. Itaque id minima, culpa iusto vero officiis tempore facere vel fugit perspiciatis veniam ut ipsam soluta numquam quidem magnam nihil architecto, sed voluptas corporis dolore. architecto, sed voluptas corporis dolor
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Serviços-->
+    <section id="servicos">
+        <div class="servicos-titulo">
+            <h1>Nossos serviços</h1>
+        </div>
+        <div class="servico-content">
+            <div class="servico">
+                <a href="./servicos/fogo.html"><img src="img/fogo.png" alt=""></a>
+                <h1><a href="./servicos/fogo.html">Projeto de incêndio</a></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum dignissimos error reiciendis recusandae maxime!</p>
+            </div>
+            <div class="servico">
+                <a href="servicos/nr12.html"><img src="img/NR12.png" alt=""></a>
+                <h1><a href="servicos/nr12.html">Adequação NR 12.</a></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum dignissimos error reiciendis recusandae maxime!</p>
+            </div>
+            <div class="servico">
+                <a href="servicos/pmoc.html"><img src="img/pmoc.png" alt=""></a>
+                <h1><a href="servicos/pmoc.html">PMOC</a></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum dignissimos error reiciendis recusandae maxime!</p>
+            </div>
+            <div class="servico">
+                <a href="servicos/projeto-mec.html"><img src="img/servico-mecanico.png" alt=""></a>
+                <h1><a href="servicos/projeto-mec.html">Projeto Mecânico</a></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum dignissimos error reiciendis recusandae maxime!</p>
+            </div>
+        </div>
+       
+    </section>
+
+   <!--Onde estamos-->
+   <section id="localizacao">
+    <h1>Onde estamos</h1>
+    <div class="map-container">
+        <iframe
+          class="map-iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.6496749201647!2d-47.00960522541982!3d-23.616893763633254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0846ff3f4a51%3A0x167b8b46cdd998f8!2sR.%20Palestina%20-%20Vila%20Sao%20Judas%20Tadeu%2C%20Vargem%20Grande%20Paulista%20-%20SP%2C%2006730-000!5e0!3m2!1spt-BR!2sbr!4v1706410297763!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+   </section>
+
+
+   <!--Contato-->
+
+   <section id="contato">
+        <div class="titulo-contato">
+            <h1>Peça seu<br/> orçamento aqui</h1>
+            <p>Entraremos em contato em ate 24H</p>
+        </div>
+        <div class="sublinhado"></div>
+        <form action="" class="form-container">
+            <div class="input-area">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div class="input-area">
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required placeholder="E-mail">
+            </div>
+            <div class="input-area">
+                <input type="tel" id="telefone" name="telefone" pattern="\d{10,14}" required placeholder="Telefone">
+            </div>
+            <div class="input-area">
+                <select name="assunto" id="assunto" >
+                    <option value="" disabled selected hidden>Selecione um Assunto</option>
+                    <option value="selecao1">Projeto de incêndio</option>
+                    <option value="selecao2">Adequação NR 12</option>
+                    <option value="selecao3">PMOC</option>
+                    <option value="selecao4">Pojeto Mecanico</option>
+                </select>
+            </div>
+            <div class="inpput-area">
+                <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            </div>
+            <div class="btn"><button>Enviar</button></div>
+        </form>
+   </section>
+
+   <footer>
+     
+     <div class="txt-footer">
+        <div class="logo-footer"><img src="img/logo-branca.png" alt=""></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia officiis quaerat, veniam labore iusto, quos ut neque hic magni soluta? Nihil recusandae, nam saepe ab quibusdam praesentium corporis impedit neque ad id dignissimos, quo minus rem labore repudiandae deserunt.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et vel voluptatibus consequatur eveniet cumque quo?</p>
+     </div>
+     <div class="social">
+        <div class="instagram"><a href=""><img src="img/Iconoir-Team-Iconoir-Instagram.512.png" alt=""></a></div>
+        <div class="facebook"><a href="#"><img src="img/Iconsmind-Outline-Facebook.512.png" alt=""></a></div>
+        <div class="linkedin"><a href="#"><img src="img/Iconsmind-Outline-Linkedin.512.png" alt=""></a></div>
+     </div>
+     <div class="ctt-footer">
+        <h2>Contato</h2>
+        <ul>
+            <li><img src="img/Pictogrammers-Material-Whatsapp.512.png" alt="">11 999999999</li>
+            <li><img src="img/Custom-Icon-Design-Mono-General-2-Mail.512.png" alt="">dafadfa@gmail.com</li>
+            <li><img src="img/Picol-Picol-Pin-Filled.512.png" alt="">Rua joão</li>
+        </ul>
+     </div>
+   </footer>
+
+   <div class="rodape">
+    <p>2024|Projeto Por: <a href="#">André Brandassi</a></p>
+ </div>
+
+</body>
+</html>
