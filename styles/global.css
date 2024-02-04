@@ -1,9 +1,10 @@
 /* Estilos Globais */
 
 :root{
-    --primaria: #40A165;
-    --secundaria: #003B16;
+    --primaria: #003B16;
+    --secundaria:#40A165 ;
     --teciaria: #566D5F;
+    --quarta: #B1E0C3;
     --branco: #fff;
     --preto: #000;
     --cinza: gray;
@@ -116,8 +117,7 @@ footer img{width:50px}
 }
 
 .social img{
-    width: 20px;
-    background-color: var(--light);
+    width: 50px;
     border-radius: 5px;
 }
 
@@ -135,11 +135,10 @@ footer img{width:50px}
 .ctt-footer ul{margin-top: 20px; color: var(--cinza);}
 
 .ctt-footer ul li img{
-    width: 20px;
+    width: 50px;
     position: relative;
     top: 5px;
     right: 4px;
-    background-color: var(--light);
     border-radius: 5px;
 }
 

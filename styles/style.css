@@ -107,7 +107,7 @@ header{
     margin: 20px auto 0 auto;
     padding: 10px;
     border-radius: 5px;
-    background-color: var(--primaria);
+    background-color: var(--secundaria);
     color: var(--branco);
     cursor: pointer;
     font-weight: 700;
@@ -115,7 +115,7 @@ header{
     transition: 1s all;
 }
 
-.slogan-botao .btn  button:hover{background-color: var(--secundaria) ;}
+.slogan-botao .btn  button:hover{background-color: var(--teciaria) ;}
 
 .slogan-botao .txt-dois{
     max-width: 500px;
@@ -194,12 +194,12 @@ header{
 
 .servico a img{width: 25%;}
 
-.servico a {
-    color: var(--primaria);
+.servico h1  a {
+    color: var(--black);
     font-size: 2.2rem;
 }
 
-.servico a:hover{
+.servico h2 a{
     color: var(--secundaria);
 }
 
