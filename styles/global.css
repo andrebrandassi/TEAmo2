@@ -24,95 +24,11 @@ a{text-decoration: none;}
 
 button{cursor: pointer;border: none;}
 
-/* Header */
-
-.fix.fixed {
-    position: fixed;
-    top: 0;
-    width: 99vw;
-    z-index: 1000;
-    background-color: var(--primaria);
-}
-
-.fix{
-    padding: 20px;
-    text-align: center;
-}
-
-.fix .logo img{
-    width: 180px;
-}
-
-.menu-toggle{
-    display: inline-block;
-}
-
-.menu-toggle button{
-    background-color: transparent;
-    margin-top: 5px;
-}
-
-.linha{
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    display: block;
-    margin: 7px;
-    position: relative;
-    transform-origin: center ;
-    transition: .5s;
-}
-
-.menu-toggle button.ativar .linha:nth-child(1){
-    transform: translateY(5px) rotate(-45deg);
-}
-
-.menu-toggle button.ativar .linha:nth-child(3){
-    transform: translateY(-5px) rotate(45deg);
-}
-
-.menu-toggle button.ativar .linha:nth-child(2){
-    display: none;
-}
-
-.nav-list{display: none;}
-
-@media screen and (max-width:660px){
-.show{
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    background-color: var(--primaria);
-    padding: 30px;
-    width: 97%;
-    margin: 0 auto;
-    border-radius: 3px;
-    text-align: left;
-}
-}
-
-.nav-list li{
-    margin-top: 10px;
-    border-bottom: 2px solid var(--branco);
-}
-
-.nav-list li:hover{border-bottom: 3px solid var(--teciaria);}
-
-.nav-list li a{
-    color: var(--branco);
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.92);
-    transition: .4s linear;
-}
-
 /*contato*/
 
 #contato{
     padding: 40px;
-    background: linear-gradient(#00000086, #0000004e), url(../img/fundo-contato.webp);
+    background: linear-gradient(#000000d2, #000000c3), url(../img/Engenharia-Mecanica.jpg);
   background-position: center;
   background-size: cover;
 }
