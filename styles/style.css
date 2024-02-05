@@ -10,7 +10,7 @@ header{
 .fix.fixed {
     position: fixed;
     top: 0;
-    width: 99vw;
+    width: 100vw;
     z-index: 1000;
     background-color: var(--primaria);
 }

@@ -69,6 +69,7 @@ header{
 .show{
     display: block;
     position: absolute;
+    border-radius: 5px;
     right: 0;
     left: 0;
     background-color: var(--primaria);
@@ -101,8 +102,9 @@ header{
 
 .titulo-servicos h1{
     color: var(--branco);
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: 'Raleway';
+    margin-top: 60px;
     padding: 3rem;
     letter-spacing: -2px;
     font-weight: 800px;
