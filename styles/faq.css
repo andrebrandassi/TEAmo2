@@ -89,7 +89,7 @@ header{
     border-bottom: 2px solid var(--branco);
 }
 
-.nav-list li:hover{border-bottom: 3px solid var(--teciaria);}
+.nav-list li:hover{border-bottom: 3px solid var(--terciaria);}
 
 .nav-list li a{
     color: var(--branco);
@@ -147,7 +147,7 @@ header{
 .conteudo{
     font-size: 1.2rem;
     font-weight: 300;
-    color: var(--teciaria);
+    color: var(--terciaria);
     border: 1px solid var(--light);
 }
 

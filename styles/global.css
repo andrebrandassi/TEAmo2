@@ -3,7 +3,7 @@
 :root{
     --primaria: #003B16;
     --secundaria:#40A165 ;
-    --teciaria: #566D5F;
+    --terciaria: #566D5F;
     --quarta: #B1E0C3;
     --branco: #fff;
     --preto: #000;
@@ -88,7 +88,7 @@ textarea{
     margin-top: 5px;
 }
 
-.form-container button:hover{background-color: var(--teciaria);}
+.form-container button:hover{background-color: var(--terciaria);}
 
 /* footer */
 

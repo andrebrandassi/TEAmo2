@@ -88,7 +88,7 @@ header{
     border-bottom: 2px solid var(--branco);
 }
 
-.nav-list li:hover{border-bottom: 3px solid var(--teciaria);}
+.nav-list li:hover{border-bottom: 3px solid var(--terciaria);}
 
 .nav-list li a{
     color: var(--branco);
@@ -121,7 +121,7 @@ header{
 
 
 #sobre-servico .titulo-servico{
-    color: var(--teciaria);
+    color: var(--terciaria);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
@@ -142,7 +142,7 @@ header{
 
 .sobre-servico-txt h2{
     margin-top: 20px;
-    color: var(--secundaria);
+    color: var(--terciaria);
     font-size: 2.4rem;
     letter-spacing: 1px;
 }

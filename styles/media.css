@@ -177,7 +177,7 @@ footer img{
 
 @media screen and (min-width:820px){
 
-    .nav-list li:hover{border-bottom: 3px solid var(--teciaria);}
+    .nav-list li:hover{border-bottom: 3px solid var(--terciaria);}
 
     #contato{
         display: flex;

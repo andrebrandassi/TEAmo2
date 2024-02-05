@@ -78,7 +78,7 @@ header{
     border-bottom: 2px solid var(--branco);
 }
 
-.nav-list li:hover{border-bottom: 3px solid var(--teciaria);}
+.nav-list li:hover{border-bottom: 3px solid var(--terciaria);}
 
 .nav-list li a{
     color: var(--branco);
@@ -115,7 +115,7 @@ header{
     transition: 1s all;
 }
 
-.slogan-botao .btn  button:hover{background-color: var(--teciaria) ;}
+.slogan-botao .btn  button:hover{background-color: var(--terciaria) ;}
 
 .slogan-botao .txt-dois{
     max-width: 500px;
@@ -133,7 +133,7 @@ header{
 }
 
 #sobre .titulo{
-    color: var(--teciaria);
+    color: var(--terciaria);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
@@ -170,7 +170,7 @@ header{
 .servicos-titulo h2{
     max-width: 400px;
     margin: 0 auto 25px auto;
-    color:  var(--teciaria);
+    color:  var(--terciaria);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
