@@ -149,7 +149,7 @@ header{
     border-radius: 4px;
  }
 
-.sobre-txt h1{
+.sobre-txt h3{
     margin-top: 20px;
     color: var(--secundaria);
     font-size: 2.4rem;
@@ -167,7 +167,7 @@ header{
 
 #servicos{width: 100%; padding: 40px;}
 
-.servicos-titulo h1{
+.servicos-titulo h2{
     max-width: 400px;
     margin: 0 auto 25px auto;
     color:  var(--teciaria);
@@ -194,12 +194,12 @@ header{
 
 .servico a img{width: 25%;}
 
-.servico h1  a {
+.servico h2  a {
     color: var(--black);
     font-size: 2.2rem;
 }
 
-.servico h2 a{
+.servico h3 a{
     color: var(--secundaria);
 }
 
@@ -213,7 +213,7 @@ header{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.307);
 }
 
-#localizacao h1{
+#localizacao h2{
     padding-top: 20px;
     display: block;
     margin: 10px auto;

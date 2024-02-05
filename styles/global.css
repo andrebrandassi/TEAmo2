@@ -34,7 +34,7 @@ button{cursor: pointer;border: none;}
   background-size: cover;
 }
 
-#contato h1{
+#contato h2{
     padding-left: 20px;
     font-size: 2.7rem;
     font-family: 'Heebo';
@@ -42,13 +42,8 @@ button{cursor: pointer;border: none;}
 }
 
 .titulo-contato p{
-    display: none;
-}
-
-.sublinhado{
-    width: 100px;
-    margin-left: 20px;
-    border-bottom: 2px solid var(--branco);
+    color: var(--branco);
+        padding: 20px;
 }
 
 #contato form{

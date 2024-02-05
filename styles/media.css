@@ -76,7 +76,7 @@
         box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.354);
     }
 
-    .sobre-txt h1{
+    .sobre-txt h3{
         margin-top: 20px;
         color: var(--secundaria);
         font-size: 2.4rem;
@@ -161,7 +161,7 @@ footer img{
 
     
       
-    .servicos-titulo h1{
+    .servicos-titulo h2{
         max-width: 400px;
     
     }
@@ -185,7 +185,7 @@ footer img{
         align-items: center;
     }
 
-    #contato h1{
+    #contato h2{
         border-bottom: 2px solid var(--branco);
     }
 
@@ -194,10 +194,6 @@ footer img{
         color: var(--branco);
         margin-top: 30px;
         padding: 20px;
-    }
-
-    #contato .sublinhado{
-        display: none;
     }
 
     .form-container{
@@ -248,12 +244,12 @@ footer img{
         max-width: 400px;
     }
 
-    .servicos-titulo h1{
+    .servicos-titulo h2{
         font-size: 2rem;
         text-align: center;
     }
 
-    #localizacao h1{
+    #localizacao h2{
         font-size: 2rem;
         width: 400px;
         text-align: center;

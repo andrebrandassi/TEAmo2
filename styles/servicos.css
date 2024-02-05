@@ -140,7 +140,7 @@ header{
     z-index: 100;
  }
 
-.sobre-servico-txt h1{
+.sobre-servico-txt h2{
     margin-top: 20px;
     color: var(--secundaria);
     font-size: 2.4rem;
