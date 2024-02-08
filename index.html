@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media.css">
     <link rel="stylesheet" href="styles/global.css">
-    <script src="script.js" defer></script>
+    <script src="script/script.js" defer></script>
 </head>
 <body>
     
@@ -91,21 +91,21 @@
         </div>
         <div class="servico-content">
             <div class="servico">
-                <a href="./servicos/fogo.html"><img src="img/fogo.png" alt="Ícone de fogo PNG para seção de proojeto de incêndio da MS EngSoluções"></a>
-                <h2><a href="./servicos/fogo.html">Projeto de incêndio</a></h2>
-                <h3><a href="./servicos/fogo.html">Saiba Mais</a></h3>
+                <a href="fogo.html"><img src="img/fogo.png" alt="Ícone de fogo PNG para seção de proojeto de incêndio da MS EngSoluções"></a>
+                <h2><a href="fogo.html">Projeto de incêndio</a></h2>
+                <h3><a href="fogo.html">Saiba Mais</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum dignissimos error reiciendis recusandae maxime!</p>
             </div>
             <div class="servico">
-                <a href="servicos/glp.html"><img src="img/glp.png" alt="Ícone PNG referente a seção de serviços GLP da MS EngSoluções"></a>
-                <h2><a href="servicos/glp.html">GLP</a></h2>
-                <h3><a href="./servicos/glp.html">Saiba Mais</a></h3>
+                <a href="glp.html"><img src="img/glp.png" alt="Ícone PNG referente a seção de serviços GLP da MS EngSoluções"></a>
+                <h2><a href="glp.html">GLP</a></h2>
+                <h3><a href="glp.html">Saiba Mais</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum dignissimos error reiciendis recusandae maxime!</p>
             </div>
             <div class="servico">
-            <a href="servicos/Hvac.html"><img src="img/pmoc.png" alt="Ícone PNG refernte a seção de serviços Hvac da MS EngSoluções"></a>
-                <h2><a href="servicos/Hvac.html">Hvac</a></h2>
-                <h3><a href="./servicos/Hvac.html">Saiba Mais</a></h3>
+            <a href="Hvac.html"><img src="img/pmoc.png" alt="Ícone PNG refernte a seção de serviços Hvac da MS EngSoluções"></a>
+                <h2><a href="Hvac.html">Hvac</a></h2>
+                <h3><a href="Hvac.html">Saiba Mais</a></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum dignissimos error reiciendis recusandae maxime!</p>
             </div>
         </div>
@@ -133,7 +133,7 @@
             <h2>Peça seu<br/> orçamento aqui</h2>
             <p>Entraremos em contato em ate 24H</p>
         </div>
-        <form action="" class="form-container">
+        <form action="envio.php" method="post" class="form-container">
             <div class="input-area">
                 <input type="text" name="nome" id="nome" placeholder="Nome">
             </div>
@@ -146,15 +146,15 @@
             <div class="input-area">
                 <select name="assunto" id="assunto" >
                     <option value="" disabled selected hidden>Selecione um Assunto</option>
-                    <option value="selecao1">Projeto de incêndio</option>
-                    <option value="selecao2">GLP</option>
-                    <option value="selecao3">Hvac</option>
+                    <option value="Projeto incêndio">Projeto de incêndio</option>
+                    <option value="GLP">GLP</option>
+                    <option value="Hvac">Hvac</option>
                 </select>
             </div>
             <div class="inpput-area">
-                <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <textarea name="msg" id="text-area" cols="30" rows="10" placeholder="Mensagem"></textarea>
             </div>
-            <div class="btn"><button>Enviar</button></div>
+            <div class="btn"><button type="submit" name="enviar">Enviar</button></div>
         </form>
    </section>
 

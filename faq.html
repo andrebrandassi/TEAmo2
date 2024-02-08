@@ -39,8 +39,8 @@
     <link rel="stylesheet" href="styles/faq.css">
     <link rel="stylesheet" href="styles/media.css">
     <link rel="stylesheet" href="styles/global.css">
-    <script src="script.js" defer></script>
-    <script src="faq.js" defer></script>
+    <script src="script/script.js" defer></script>
+    <script src="script/faq.js" defer></script>
 </head>
 <body>
     <header>
@@ -136,37 +136,37 @@
         </div>
     </main>
 
- <!--Contato-->
+   <!--Contato-->
 
- <section id="contato">
-    <div class="titulo-contato">
-        <h2>Peça seu<br/> orçamento aqui</h2>
-        <p>Entraremos em contato em ate 24H</p>
-    </div>
-    <form action="" class="form-container">
-        <div class="input-area">
-            <input type="text" name="nome" id="nome" placeholder="Nome">
+   <section id="contato">
+        <div class="titulo-contato">
+            <h2>Peça seu<br/> orçamento aqui</h2>
+            <p>Entraremos em contato em ate 24H</p>
         </div>
-        <div class="input-area">
-            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required placeholder="E-mail">
-        </div>
-        <div class="input-area">
-            <input type="tel" id="telefone" name="telefone" pattern="\d{10,14}" required placeholder="Telefone">
-        </div>
-        <div class="input-area">
-            <select name="assunto" id="assunto" >
-                <option value="" disabled selected hidden>Selecione um Assunto</option>
-                <option value="selecao1">Projeto de incêndio</option>
-                <option value="selecao2">GLP</option>
-                <option value="selecao3">Hvac</option>
-            </select>
-        </div>
-        <div class="inpput-area">
-            <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Mensagem"></textarea>
-        </div>
-        <div class="btn"><button>Enviar</button></div>
-    </form>
-</section>
+        <form action="envio.php" method="post" class="form-container">
+            <div class="input-area">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div class="input-area">
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required placeholder="E-mail">
+            </div>
+            <div class="input-area">
+                <input type="tel" id="telefone" name="telefone" pattern="\d{10,14}" required placeholder="Telefone">
+            </div>
+            <div class="input-area">
+                <select name="assunto" id="assunto" >
+                    <option value="" disabled selected hidden>Selecione um Assunto</option>
+                    <option value="Projeto incêndio">Projeto de incêndio</option>
+                    <option value="GLP">GLP</option>
+                    <option value="Hvac">Hvac</option>
+                </select>
+            </div>
+            <div class="inpput-area">
+                <textarea name="msg" id="text-area" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            </div>
+            <div class="btn"><button type="submit" name="enviar">Enviar</button></div>
+        </form>
+   </section>
 
 <footer>
  

@@ -28,23 +28,22 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <title>NR12 - MS EngSoluções</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Hvac - MS EngSoluções</title>
     <meta name="description" content="A MS EngSoluções é uma empresa de engenharia mecânica que faz diversos serviços de GLP, Hvac e gestão de hidrantes. Aqui você pode entrar em contato conosco e entender sobre algumas dúvidas na seção FAQ do nosso site">
     <!--LINKS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/servicos.css">
-    <link rel="stylesheet" href="../styles/media.css">
-    <link rel="stylesheet" href="../styles/global.css">
-    <script src="../script.js" defer></script>
+    <link rel="stylesheet" href="styles/servicos.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <script src="script/script.js" defer></script>
 </head>
 
 <style>
-
-header{
-      background: linear-gradient(#00000086, #0000004e), url(../img/header-glp.jpg);
+    header{
+      background: linear-gradient(#00000086, #0000004e), url(img/header-hvac.jpg);
       background-position: center;
       background-size: cover;
       height: 85vh;
@@ -53,15 +52,17 @@ header{
     @media screen and (min-width:660px) {
         .titulo-servicos  h1{
             margin-top: 88px;
-            font-size: 6rem;
+            font-size: 8rem;
+            letter-spacing: 20px;
         }
     }
+
 </style>
 
 <body>
     <header>
         <div class="fix">
-            <div class="logo"><a href="../index.html" target="_self"><img src="../img/logo-branca.png" alt=""></a></div>
+            <div class="logo"><a href="index.html" target="_self"><img src="img/logo-branca.png" alt="ms engsoluções"></a></div>
             <nav class="nav">
                 <div class="menu-toggle">
                     <button class="btn-menu">
@@ -71,26 +72,26 @@ header{
                     </button>
                 </div>
                 <ul class="nav-list">
-                    <li><a href="../index.html"><p>Home</p></a></li>
-                    <li><a href="../index.html#sobre" ><p>Sobre nós</p></a></li>
-                    <li><a href="../index.html#servicos"><p>Serviços</p></a></li>
-                    <li><a href="../faq.html" target="_self"><p>FAQ</p></a></a></li>
-                    <li><a href="../index.html#localizacao"><p>Onde estamos</p></a></li>
-                    <li><a href="../index.html#contato"><p>contato</p></a></li>
+                    <li><a href="index.html"><p>Home</p></a></li>
+                    <li><a href="index.html#sobre" ><p>Sobre nós</p></a></li>
+                    <li><a href="index.html#servicos"><p>Serviços</p></a></li>
+                    <li><a href="faq.html" target="_self"><p>FAQ</p></a></a></li>
+                    <li><a href="index.html#localizacao"><p>Onde estamos</p></a></li>
+                    <li><a href="index.html#contato"><p>contato</p></a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="titulo-servicos">
-            <h1>GLP</h1>
+            <h1>Hvac</h1>
         </div>
 </header>    
 
- <!--sobre o serviço-->
+ <!--Sobre o serviço-->
 
  <section id="sobre-servico">
     <div class="sobre-servico-content">
-        <div class="sobre-servico-img"><img src="../img/sobre-glp.jpeg" alt="Serviço de GLP da ms engsoluções"></div>
+        <div class="sobre-servico-img"><img src="img/sobre-hvac.webp" alt="Serviço de Hvac da ms engsoluções"></div>
         <div class="sobre-servico-txt">
             <h2>Lorem, ipsum asdfas.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, maiores. Itaque id minima, culpa iusto vero officiis tempore facere vel fugit perspiciatis veniam ut ipsam soluta numquam quidem magnam nihil architecto, sed voluptas corporis dolore. architecto, sed voluptas corporis dolor
@@ -113,57 +114,56 @@ header{
     </div>
 </section>
 
-<!--Contato-->
+   <!--Contato-->
 
-<section id="contato">
-    <div class="titulo-contato">
-        <h2>Peça seu<br/> orçamento aqui</h2>
-        <p>Entraremos em contato em ate 24H</p>
-    </div>
-    <div class="sublinhado"></div>
-    <form action="" class="form-container">
-        <div class="input-area">
-            <input type="text" name="nome" id="nome" placeholder="Nome">
+   <section id="contato">
+        <div class="titulo-contato">
+            <h2>Peça seu<br/> orçamento aqui</h2>
+            <p>Entraremos em contato em ate 24H</p>
         </div>
-        <div class="input-area">
-            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required placeholder="E-mail">
-        </div>
-        <div class="input-area">
-            <input type="tel" id="telefone" name="telefone" pattern="\d{10,14}" required placeholder="Telefone">
-        </div>
-        <div class="input-area">
-            <select name="assunto" id="assunto" >
-                <option value="" disabled selected hidden>Selecione um Assunto</option>
-                <option value="selecao1">Projeto de incêndio</option>
-                <option value="selecao2">GLP</option>
-                <option value="selecao3">Hvac</option>
-            </select>
-        </div>
-        <div class="inpput-area">
-            <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="Mensagem"></textarea>
-        </div>
-        <div class="btn"><button>Enviar</button></div>
-    </form>
-</section>
+        <form action="envio.php" method="post" class="form-container">
+            <div class="input-area">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div class="input-area">
+                <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required placeholder="E-mail">
+            </div>
+            <div class="input-area">
+                <input type="tel" id="telefone" name="telefone" pattern="\d{10,14}" required placeholder="Telefone">
+            </div>
+            <div class="input-area">
+                <select name="assunto" id="assunto" >
+                    <option value="" disabled selected hidden>Selecione um Assunto</option>
+                    <option value="Projeto incêndio">Projeto de incêndio</option>
+                    <option value="GLP">GLP</option>
+                    <option value="Hvac">Hvac</option>
+                </select>
+            </div>
+            <div class="inpput-area">
+                <textarea name="msg" id="text-area" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            </div>
+            <div class="btn"><button type="submit" name="enviar">Enviar</button></div>
+        </form>
+   </section>
 
 <footer>
  
  <div class="txt-footer">
-    <div class="logo-footer"><img src="../img/logo-branca.png" alt="MS EngSoluções"></div>
+    <div class="logo-footer"><img src="img/logo-branca.png" alt="MS EngSoluções"></div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil mollitia officiis quaerat, veniam labore iusto, quos ut neque hic magni soluta? Nihil recusandae, nam saepe ab quibusdam praesentium corporis impedit neque ad id dignissimos, quo minus rem labore repudiandae deserunt.</p>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et vel voluptatibus consequatur eveniet cumque quo?</p>
  </div>
  <div class="social">
-    <div class="instagram"><a href="https://www.instagram.com/ms_engsolucoes/" target="_blank"><img src="../img/insta-branco-removebg-preview.png" alt="Instagram da ms engsoluções"></a></div>
-    <div class="facebook"><a href="#"><img src="../img/face-branco-removebg-preview.png" alt="facebook da ms engsoluções"></a></div>
-    <div class="linkedin"><a href="#"><img src="../img/in-removebg-preview.png" alt="linkedin ms engsoluções"></a></div>
+    <div class="instagram"><a href="https://www.instagram.com/ms_engsolucoes/" target="_blank"><img src="img/insta-branco-removebg-preview.png" alt="Instagram da ms engsoluções"></a></div>
+    <div class="facebook"><a href="#"><img src="img/face-branco-removebg-preview.png" alt="facebook da ms engsoluções"></a></div>
+    <div class="linkedin"><a href="#"><img src="img/in-removebg-preview.png" alt="linkedin ms engsoluções"></a></div>
  </div>
  <div class="ctt-footer">
     <h2>Contato</h2>
     <ul>
-        <li><img src="../img/whats-removebg-preview.png" alt="número de telefone da ms engsoluções">(75) 98114-8742</li>
-        <li><img src="../img/carta-removebg-preview.png" alt="endereço de email da ms engsoluções">contato@ms-engsolucoes.com.br</li>
-        <li><img src="../img/locate-removebg-preview.png" alt="endereço da empresa ms engsoluções">R. Nova York - Feira de Santana - 44077-420 Sala 415</li>
+        <li><img src="img/whats-removebg-preview.png" alt="número de telefone da ms engsoluções">(75) 98114-87429</li>
+        <li><img src="img/carta-removebg-preview.png" alt="endereço de email da ms engsoluções">contato@ms-engsolucoes.com.br</li>
+        <li><img src="img/locate-removebg-preview.png" alt="endereço da empresa ms engsoluções">R. Nova York - Feira de Santana - 44077-420 Sala 415</li>
     </ul>
  </div>
 </footer>
