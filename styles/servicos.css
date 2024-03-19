@@ -149,6 +149,13 @@ header{
     letter-spacing: 1px;
 }
 
+.sobre-servico-txt h3{
+    margin-top: 20px;
+    color: var(--terciaria);
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+}
+
 .sobre-servico-txt p, .sobre-servico-txt-mais p{
     margin-top: 20px;
     line-height: 25px;
