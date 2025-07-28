@@ -1,9 +1,9 @@
 /* Estilos Globais */
 
 :root{
-    --primaria: #004731;
-    --secundaria:#40A165 ;
-    --terciaria: #566D5F;
+    --primaria: #2FC2DC;
+    --secundaria:#2E8BDB ;
+    --terciaria: #DBE810;
     --quarta: #B1E0C3;
     --branco: #fff;
     --preto: #000;
@@ -29,7 +29,7 @@ button{cursor: pointer;border: none;}
 
 #contato{
     padding: 40px;
-    background: linear-gradient(#000000d2, #000000c3), url(../img/Engenharia-Mecanica.jpg);
+    background: linear-gradient(#000000d2, #000000c3), url(../img/teamo-banner-footer.png);
   background-position: center;
   background-size: cover;
 }
@@ -44,6 +44,19 @@ button{cursor: pointer;border: none;}
 .titulo-contato p{
     color: var(--branco);
         padding: 20px;
+}
+
+.whatsapp-ctt button{
+    border-radius: 5px;
+    padding: 8px;
+    background-color:#47D121;
+    color: white;
+    text-transform: uppercase;
+}
+
+.whatsapp-ctt img{
+    width: 30px;
+    
 }
 
 #contato form{
@@ -93,7 +106,7 @@ textarea{
 /* footer */
 
 footer{
-    background-color: var(--preto);
+    background-color: #B84745;
     color: var(--branco);
     padding: 40px 20px;
 }
@@ -127,7 +140,7 @@ footer img{width:50px}
     color: var(--light);
 }
 
-.ctt-footer ul{margin-top: 20px; color: var(--cinza);}
+.ctt-footer ul{margin-top: 20px; color: var(--branco);}
 
 .ctt-footer ul li img{
     width: 50px;

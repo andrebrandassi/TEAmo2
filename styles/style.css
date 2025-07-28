@@ -1,7 +1,7 @@
 /* Header */
 
 header{
-    background: linear-gradient(#00000086, #0000004e), url(../img/eng-mec-header.jpg);
+    background: linear-gradient(#00000086, #0000004e), url(../img/teamo-duas-criancas.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -127,13 +127,12 @@ header{
 
 #sobre{
     padding: 40px;
-    background-image: linear-gradient(to right, #cfcfcd, var(--branco));
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.136);
 
 }
 
 #sobre .titulo{
-    color: var(--terciaria);
+    color: var(--secundaria);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
@@ -170,7 +169,7 @@ header{
 .servicos-titulo h2{
     max-width: 400px;
     margin: 0 auto 25px auto;
-    color:  var(--terciaria);
+    color:  var(--secundaria);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
@@ -218,7 +217,7 @@ header{
     display: block;
     margin: 10px auto;
     width: 140px;
-    color: var(--primaria);
+    color: var(--secundaria);
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
