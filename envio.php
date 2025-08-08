@@ -16,18 +16,18 @@ if (isset($_POST['enviar'])) {
         // Configurações do servidor SMTP
         $mail->SMTPDebug = 0;  
         $mail->isSMTP();                                   
-        $mail->Host       = 'smtp.hostinger.com';           
+        $mail->Host       = 'www.cpanel.net';           
         $mail->SMTPAuth   = true;                                   
-        $mail->Username   = 'testeemail@ms-engsolucoes.com.br';      
+        $mail->Username   = 'dbrandassi0@gmail.com';      
         $mail->Password   = 'Teste1234@';                             
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            
         $mail->Port       = 587;   
         $mail->CharSet    = 'UTF-8';  // Define a codificação como UTF-8
 
         // Remetente e destinatário
-        $mail->setFrom('testeemail@ms-engsolucoes.com.br', 'Mailer');
-        $mail->addAddress('testeemail@ms-engsolucoes.com.br', 'André');
-        $mail->addReplyTo('testeemail@ms-engsolucoes.com.br', 'Information');
+        $mail->setFrom('dbrandassi0@gmail.com', 'Mailer');
+        $mail->addAddress('dbrandassi0@gmail.com', 'André');
+        $mail->addReplyTo('dbrandassi0@gmail.com', 'Information');
 
         // Conteúdo do e-mail
         $mail->isHTML(true);
@@ -47,7 +47,7 @@ if (isset($_POST['enviar'])) {
         $mail->send();
         echo "<script>
 alert('Mensagem enviada com sucesso! Em breve responderemos.');
-window.location.href = 'https://ms-engsolucoes.com.br/';
+window.location.href = 'www.cpanel.net/';
 </script>";
     } catch (Exception $e) {
         echo "Erro ao enviar o formulário: {$mail->ErrorInfo}";
