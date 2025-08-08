@@ -240,3 +240,19 @@ header{
     border: 0; /* Remova a borda padrão do iframe, se houver */
     border-radius: 10px; /* Ajuste conforme necessário */
 }
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #25D366;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
