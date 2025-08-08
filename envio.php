@@ -67,8 +67,6 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 if (isset($_POST['enviar'])) {
-    echo "Formulário foi submetido.<br>";
-
     $mail = new PHPMailer(true);
 
     try {
@@ -107,13 +105,11 @@ if (isset($_POST['enviar'])) {
 
         // Enviar e-mail
         $mail->send();
-        echo "<h4>Mensagem enviada com sucesso! Verifique sua caixa de entrada ou spam.</h4>";
     } catch (Exception $e) {
-        echo "<h4>Erro ao enviar a mensagem:</h4>";
-        echo "<pre>{$mail->ErrorInfo}</pre>";
+        echo "Erro: {$mail->ErrorInfo}";
     }
 } else {
-    echo "Acesso inválido: o formulário não foi submetido.";
+     echo "Formulário não submetido corretamente.";
 }
 ?>
 
